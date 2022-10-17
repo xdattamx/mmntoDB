@@ -1,9 +1,9 @@
 function name(url) {
   // code to be executed
   
-  message(name); 
+  message(url); 
 // set the field content  
-entry().set("logotipo",name);
+entry().set("logotipo",url);
 
 }
 name();
