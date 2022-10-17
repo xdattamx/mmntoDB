@@ -1,4 +1,4 @@
-function name(url) {
+function name() {
   // code to be executed
   
   message(url); 
