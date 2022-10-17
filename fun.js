@@ -6,4 +6,4 @@ function name(url) {
 entry().set("logotipo",name);
 
 }
-nam3();
+name();
