@@ -5,7 +5,7 @@ var a=entry().field("Folio");
 
 // var toSet= "http://chart.apis.google.com/chart?cht=qr&chs=450x450&chl="+a+""; message(toSet);
 
-var toSet= "https://api.qrserver.com/v1/create-qr-code/?size=450x450&bgcolor=FFFFFF&color=FF3300&format=png&data="+a+""; message(toSet);
+var toSet= "https://api.qrserver.com/v1/create-qr-code/?size=450x450&bgcolor=FFFFFF&color=FF3300&data="+a+""; message(toSet);
 
 
 // set the field content 
