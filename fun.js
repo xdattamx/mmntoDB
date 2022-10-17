@@ -5,5 +5,5 @@ function name(url) {
 // set the field content  
 entry().set("logotipo",name);
 
-
 }
+nam3();
