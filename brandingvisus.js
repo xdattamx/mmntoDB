@@ -1,4 +1,5 @@
-var toSet= (url);  
+var toSet = (url); 
+console.log(toSet):
 message(toSet); 
 // set the field content  
 entry().set("logotipo",toSet);
