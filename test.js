@@ -3,7 +3,11 @@ function replaceAll(str, find, replace) { return str.replace(new RegExp(find, 'g
 var a=entry().field("Folio");
 // a=replaceAll(a," ","%20");
 
-var toSet= "http://chart.apis.google.com/chart?cht=qr&chs=450x450&chl="+a+""; message(toSet);
+// var toSet= "http://chart.apis.google.com/chart?cht=qr&chs=450x450&chl="+a+""; message(toSet);
+
+var toSet= "https://api.qrserver.com/v1/create-qr-code/?size=450x450&bgcolor=FFFFFF&color=FF3300&format=svg&data="+a+""; message(toSet);
+
+
 // set the field content 
  entry().set("QrFolio",toSet);
  
