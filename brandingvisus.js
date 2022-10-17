@@ -1,5 +1,4 @@
-var toSet = "url"; 
-console.log(toSet):
+var toSet= "https://www.visusagencia.com/v2/wp-content/uploads/2022/06/Logotipo_Visus_Agencia_350px.png?h + guid()";  
 message(toSet); 
 // set the field content  
 entry().set("logotipo",toSet);
