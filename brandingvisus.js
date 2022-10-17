@@ -1,4 +1,4 @@
-var toSet= "url";  
+var toSet= ("url");  
 message(toSet); 
 // set the field content  
 entry().set("logotipo",toSet);
