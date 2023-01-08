@@ -4,7 +4,7 @@
 // entryDefault().set("gui",guid());
 var conf = libByName("Config");
 ConfigEntry = conf.findById("aaa"); //search an entry in Spp by ID
-message(conf);
+message(ConfigEntry);
 var CallId = conf[0].field("id");
 //Mensaje de aviso opcional
 message(CallId);
