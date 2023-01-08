@@ -3,6 +3,10 @@
 // var test = "fp1";
 entryDefault().set("gui",guid());
 var conf = libByName("Config");
+message(conf);
 var CallId = conf[0].field("id");
 //Mensaje de aviso opcional
 message(CallId);
+
+
+prevMileage = entries[0].field("Mileage"); 
