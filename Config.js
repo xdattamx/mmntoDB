@@ -3,7 +3,9 @@
 // var test = "fp1";
 // entryDefault().set("gui",guid());
 var conf = libByName("Config");
-ConfigEntry = conf.findById("aaa"); //search an entry in Spp by ID
+
+
+ConfigEntry = conf.findById("config"); //search an entry in Spp by ID
 message(ConfigEntry);
 var CallId = conf[0].field("id");
 //Mensaje de aviso opcional
