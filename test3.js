@@ -1,4 +1,4 @@
-ar e = entrada();
+var e = entrada();
 var libreria = libByName( "config" );
 var id = libreria.field( "id" );
 message(id);
