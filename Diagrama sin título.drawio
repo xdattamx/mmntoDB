@@ -31,7 +31,7 @@
         <mxCell id="XuLZ4rQPunAFKhHxTUOO-13" value="Treads" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="354" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XuLZ4rQPunAFKhHxTUOO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XuLZ4rQPunAFKhHxTUOO-23" target="XuLZ4rQPunAFKhHxTUOO-35">
+        <mxCell id="XuLZ4rQPunAFKhHxTUOO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;flowAnimation=0;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XuLZ4rQPunAFKhHxTUOO-23" target="XuLZ4rQPunAFKhHxTUOO-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XuLZ4rQPunAFKhHxTUOO-23" value="FB Rojo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
