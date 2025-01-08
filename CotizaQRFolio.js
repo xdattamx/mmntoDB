@@ -3,7 +3,7 @@ function replaceAll(str, find, replace) { return str.replace(new RegExp(find, 'g
 var a = entry().field("Folio");
 // a = replaceAll(a, " ", "%20");
 // Nueva variable que combina el valor del campo "Folio" con la palabra "Cotiza"
-var combinedValue = a + "Cotiza";
+var combinedValue = "Cotiza" + a ;
 var b = combinedValue;
 var toSet = "https://qrcode.tec-it.com/API/QRCode?data=" + b + "&dpi=150&size=Medium";
 // message(toSet);
