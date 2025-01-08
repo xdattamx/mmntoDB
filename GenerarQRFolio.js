@@ -1,8 +1,8 @@
 function replaceAll(str, find, replace) { return str.replace(new RegExp(find, 'g'), replace); }
-// get data to transmit obtener datos de
+// Obtener datos de el campo folio
 var a=entry().field("Folio");
 // a=replaceAll(a," ","%20");
-
-var toSet= "https://qrcode.tec-it.com/API/QRCode?data="+a+""; message(toSet);
+var toSet= "https://qrcode.tec-it.com/API/QRCode?data="+a+"";
+message(toSet);
 // set the field content 
- entry().set("QrFolio",toSet);
+entry().set("QrFolio",toSet);
