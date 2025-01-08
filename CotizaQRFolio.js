@@ -1,3 +1,6 @@
+// Genera QR de imagen y estabelce el campo barcode 
+// https://github.com/xdattamx/mmntoDB/blob/main/CotizaQRFolio.js
+// para usarse en el modulo de cotizaciones de VisusERP
 function replaceAll(str, find, replace) { return str.replace(new RegExp(find, 'g'), replace); }
 // Obtener datos de el campo folio
 var a = entry().field("Folio");
