@@ -14,4 +14,4 @@ var c = a + b;
 // set the field content 
 message(b);
 entry().set("QrFolio", toSet);
-entry().set("barcode", b);
+entry().set("barcode", c);
