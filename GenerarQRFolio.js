@@ -6,5 +6,6 @@ var toSet= "https://qrcode.tec-it.com/API/QRCode?data="+a+"Cotiza&dpi=150&size=M
 message(toSet);
 var b= "a+"Cotiza"
 // set the field content 
+message(b);
 entry().set("QrFolio",toSet);
 entry().set("barcode",b);
